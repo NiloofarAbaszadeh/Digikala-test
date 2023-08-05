@@ -10,7 +10,7 @@ const Header = () => {
   const FirstHeader = () => {
 
     return (
-      <div>
+      <div className="first-header-container">
         <img className="first-header" src={MainHeader}></img>
       </div>
     )

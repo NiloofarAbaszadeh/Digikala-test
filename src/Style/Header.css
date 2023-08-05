@@ -3,14 +3,21 @@ body {
   direction: rtl
 }
 
+.first-header-container {
+  background-color: white;
+}
+
 .main-header {
   position: fixed;
   top: 0;
   left: 0;
+  box-shadow: 0px 1px 2px rgb(208, 208, 208);
 }
 
 .first-header {
   max-width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .second-header {
