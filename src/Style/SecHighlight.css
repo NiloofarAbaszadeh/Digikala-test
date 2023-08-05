@@ -1,0 +1,27 @@
+.sechighlight>div>div>p {
+  display: inline;
+}
+
+.sechighlight {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sechighlight-elements {
+  margin: 20px 44px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.sechighlight-img>img {
+  width: 55px;
+  height: 55px;
+}
+
+.sechighlight-title {
+  margin-top: 7px;
+}
